@@ -10,6 +10,8 @@
 
 
     <link href="assets/css/style.css" type="text/css" rel="stylesheet">
+    <link href="assets/css/mp3player.css" type="text/css" rel="stylesheet">
+
     <title>VarsPhilos.com</title>
 </head>
 
@@ -54,6 +56,56 @@
 
             </div>
 
+
+            <div id="mp3player-container">
+                <div id="audio-image">
+                    <img class="cover">
+                </div>
+                <div id="audio-player">
+                    <div id="audio-info">
+                        Now Playing : <span class="artist"></span> - <span class="title"></span>
+                    </div>
+                    <a id="minus">-</a>
+                    <input id="volume" type="range" min="0" max="10" value="4">
+                    <a id="plus">+</a>
+                    <br>
+                    <div id="buttons">
+                        <span>
+                            <a id="prev"></a>
+                            <a id="play"></a>
+                            <a id="pause"></a>
+                            <a id="stop"></a>
+                            <a id="next"></a>
+                        </span>
+                        
+                    </div>
+                    <div class="sub-buttons">
+                        <a id="mute"></a>
+                        <a id="unmute"></a>
+                        <a id="playall"> Play All</a>
+                        <a id="repeat"></a>
+                        <a id="repeated"></a>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div id="tracker">
+                        <input class="slider" id="seek" type="range" step="any" min="0" max="100" value="0"/>
+                        <span id="duration"></span>
+                    </div>
+                    <div class="clearfix"></div>
+                    <ul id="playlist" class="hidden">
+                        <li class="active" song="$3.99.mp3" cover="" artist="Vars Philos">$3.99.mp3</li>
+                        <li class="active" song="Rain Day.mp3" cover="" artist="Vars Philos">Rain Day.mp3</li>
+                        <li class="active" song="johnny appleseed.mp3" cover="" artist="Vars Philos">johnny appleseed.mp3</li>
+                        <li class="active" song="Free Parking.mp3" cover="" artist="Vars Philos">Free Parking.mp3</li>
+                        <li class="active" song="sir w raliegh.mp3" cover="" artist="Vars Philos">Hat in Hand.mp3</li>
+                        <li class="active" song="dog electronic.mp3" cover="" artist="Vars Philos">dog electronic.mp3</li>
+                        <li class="active" song="toy.mp3" cover="" artist="Vars Philos">toy.mp3</li>
+                        <li class="active" song="NoShow.mp3" cover="" artist="Vars Philos">NoShow.mp3</li>
+                        <li class="active" song="grim as a sucker.mp3" cover="" artist="Vars Philos">grim as a sucker.mp3</li>
+                    </ul>
+                </div>
+            </div>
+
         </div>
 
     </main>
@@ -67,7 +119,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    <script src="assets/js/mp3player.js"></script>
 
 </body>
 
