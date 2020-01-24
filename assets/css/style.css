@@ -1,127 +1,14 @@
 html {
-    font-family: 'Libre Barcode 128 Text', cursive;
+    background-color: rgba(67, 67, 67, 90%)!important;
 }
 
-body {
-    background-color: #343a40;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5 {
-    font-family: 'Ubuntu', "Helvetica Neue", sans-serif;
-    margin: 0;
+.container {
+    /* background-color: rgba(67, 67, 67); */
+    margin-left: auto;
+    margin-right: auto;
     padding: 0;
 }
 
-p {
-    font-family: 'Source Code Pro', monospace;
-}
-
-.navbar {
-    border-bottom: 1px solid #008B18!important;
-}
-
-.jumbotron {
-    margin-top: 120px;
-    background-color: #272b2e;
-    padding-bottom: 16px;
-}
-
-@media only screen and (max-width: 812px) {}
-
-@media only screen and (max-width: 660px) {}
-
-.color-primary-0 {
-    color: #E11201;
-}
-
-
-/* Main Primary color */
-
-.color-primary-1 {
-    color: #FF6458;
-}
-
-.color-primary-2 {
-    color: #FD3A2B;
-}
-
-.color-primary-3 {
-    color: #B60D00;
-}
-
-.color-primary-4 {
-    color: #8C0A00;
-}
-
-.color-secondary-1-0 {
-    color: #E17401;
-}
-
-
-/* Main Secondary color (1) */
-
-.color-secondary-1-1 {
-    color: #FFAE58;
-}
-
-.color-secondary-1-2 {
-    color: #FD972B;
-}
-
-.color-secondary-1-3 {
-    color: #B65D00;
-}
-
-.color-secondary-1-4 {
-    color: #8C4800;
-}
-
-.color-secondary-2-0 {
-    color: #066B8D;
-}
-
-
-/* Main Secondary color (2) */
-
-.color-secondary-2-1 {
-    color: #4091AC;
-}
-
-.color-secondary-2-2 {
-    color: #207F9E;
-}
-
-.color-secondary-2-3 {
-    color: #045671;
-}
-
-.color-secondary-2-4 {
-    color: #024258;
-}
-
-.color-complement-0 {
-    color: #01AC1F;
-}
-
-
-/* Main Complement color */
-
-.color-complement-1 {
-    color: #46CB5D;
-}
-
-.color-complement-2 {
-    color: #21C23D;
-}
-
-.color-complement-3 {
-    color: #008B18;
-}
-
-.color-complement-4 {
-    color: #006B13;
+.vars-blue {
+    color: #448EAC!important;
 }
